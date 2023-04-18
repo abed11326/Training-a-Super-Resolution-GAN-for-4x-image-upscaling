@@ -9,7 +9,6 @@ The implementation is based mainly on this [paper](https://arxiv.org/abs/1609.04
 ## Modifications
 The differences between this implementation and the original paper are:
 - <b>Data:</b>
-- <b>Loss function:</b>
 - <b>Discriminator:</b>
 
 ## Results
