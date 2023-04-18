@@ -8,7 +8,5 @@ The implementation is based mainly on this [paper](https://arxiv.org/abs/1609.04
 
 ## Modifications
 The differences between this implementation and the original paper are:
-- <b>Data:</b>
-- <b>Discriminator:</b>
-
-## Results
+- <b>Data:</b> The original paper uses a random sample of 350 thousand images from the ImageNet database, but, here a collection of DIV2K dataset, Flickr2K dataset, and OutdoorSceneTraining (OST) dataset is used.</b>
+- <b>Discriminator:</b> Dropout layers are added to the discriminator to balance the training more.</b>
